@@ -1,0 +1,104 @@
+
+.App {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, rgba(255,0,0,0),pink);
+}
+
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rebeccapurple;
+  font-size: 2.5rem;
+  margin-left: 20px;
+}
+
+.App h1 {
+  color: blueviolet;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App p {
+  color: #777;
+  font-size: 1rem;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  text-decoration: underline;
+  font-family: monospace;
+  font-size: large;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid pink;
+  border-radius: 5px;
+ 
+}
+
+button {
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: center; 
+  padding: 10px 0;
+}
+
+.navigation-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navigation-menu li {
+  margin: 0;
+}
+
+.navigation-menu a {
+  text-decoration: none;
+color: blueviolet;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.navigation-menu:hover {
+  color: blue;
+}
